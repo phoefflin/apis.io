@@ -91,7 +91,7 @@ Meteor.methods({
         }
     },
     isAuth: function(humanURL, apiFileUrl){
-      var URI = Meteor.npmRequire('URIjs');
+      var URI = require('URIjs');
       var apiDomain = new URI(humanURL);
       var apiFileDomain = new URI(apiFileUrl);
       return (apiDomain.domain() === apiFileDomain.domain());

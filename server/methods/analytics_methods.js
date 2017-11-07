@@ -1,11 +1,11 @@
-var Keen = Meteor.npmRequire('keen.io');
+var Keen = require('keen.io');
 var keen = Keen.configure({
 	projectId: Meteor.settings.private.keen.projectId,
 	writeKey: Meteor.settings.private.keen.writeKey,
 });
 
-parser = Meteor.npmRequire('ua-parser');
-geoip = Meteor.npmRequire('geoip-lite');
+parser = require('ua-parser');
+geoip = require('geoip-lite');
 
 Meteor.methods({
 	trackOutbound: function(keenEvent){

@@ -2,7 +2,7 @@ Meteor.methods({
     addAPIFile: function(url){
       // this.unblock();
       var response = HTTP.get(url);
-      var URI = Meteor.npmRequire('URIjs');
+      var URI = require('URIjs');
       var uri = new URI(url)
       var file_name = uri.filename();
 

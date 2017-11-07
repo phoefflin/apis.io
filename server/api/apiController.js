@@ -7,7 +7,7 @@ APIcontroller = RouteController.extend({
         metric["name"] =this.options.route.getName().replace(/api./,'').replace('.','_')
 
         //Auth with 3scale
-        var ThreeScale = Meteor.npmRequire('3scale').Client;
+        var ThreeScale = require('3scale').Client;
 
         var client = new ThreeScale(Meteor.settings.private.threeScale.provider_key);
 

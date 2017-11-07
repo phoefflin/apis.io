@@ -55,7 +55,7 @@ AutoForm.hooks({
       //2. Valid Recaptcha
       //3. Valid format
       //4. Insert
-      var URI = Meteor.npmRequire('URIjs');
+      var URI = require('URIjs');
 
       var uri = new URI(insertDoc.url);
       console.log(uri);

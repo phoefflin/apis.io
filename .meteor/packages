@@ -15,7 +15,6 @@ http
 jparker:crypto-md5
 peerlibrary:urlify2
 mrt:bootswatch-yeti
-meteorhacks:npm
 
 
 pfafman:filesaver
@@ -30,7 +29,8 @@ raix:handlebar-helpers
 gadicohen:sitemaps
 
 
-npm-container
 aldeed:autoform
-standard-minifiers
 appshore:recaptcha
+standard-minifier-css
+standard-minifier-js
+modules

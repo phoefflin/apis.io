@@ -1,7 +1,7 @@
-tv4 = Meteor.npmRequire('tv4');
-formats = Meteor.npmRequire('tv4-formats');
-assert = Meteor.npmRequire('assert');
-vCard = Meteor.npmRequire('vcard');
+tv4 = require('tv4');
+formats = require('tv4-formats');
+assert = require('assert');
+vCard = require('vcard');
 validator = tv4.freshApi();
 validator.addFormat(formats);
 
