@@ -8,10 +8,9 @@ aldeed:simple-schema
 
 
 iron:router
-meteorhacks:kadira
 datariot:ganalytics
 mrt:flash-messages
-http
+http@1.2.12
 jparker:crypto-md5
 peerlibrary:urlify2
 mrt:bootswatch-yeti
@@ -31,6 +30,7 @@ gadicohen:sitemaps
 
 aldeed:autoform
 appshore:recaptcha
-standard-minifier-css
-standard-minifier-js
-modules
+standard-minifier-css@1.3.4
+standard-minifier-js@2.0.0
+modules@0.8.2
+shell-server
